@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+.selected-item a {
+    display: none !important;
+}
+.dropdown-list .item1 {
+    display: none;
+}
+
+.multiselect-item-checkbox input[type=checkbox] + div:before {
+    display: none !important;
+}
+.multiselect-item-checkbox input[type=checkbox] {
+    clip: auto !important;
+    height: auto !important;
+    margin: 2px 24px 2px 10px !important;
+    position: absolute !important;
+    width: 23px !important;
+}
